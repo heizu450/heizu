@@ -1,0 +1,62 @@
+html {
+  font-size: 20px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
+  font-family: "DM Serif Text", serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #e8e6e3;
+}
+h2 {
+  font-size: 40px;
+  text-align: left;
+  color: #e8e6e3;
+}
+h3 {
+  font-size: 25px;
+  text-align: left;
+  color: #e8e6e3;
+}
+p 
+{
+  font-size: 20px;
+  text-align: left;
+  color: #929291;
+}
+
+li
+{
+ color: #e8e6e3
+
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.image-a-gauche {
+    float: left;
+    margin-right: 15px; /* Espace entre l'image et le texte */
+}
+.image-a-droit {
+    float: right;
+    margin-right: 15px; /* Espace entre l'image et le texte */
+}
+
+
+
+
+body {
+  margin: 0 auto ; /*1er bourdure*/
+  background-color: #1a1e1e;
+  padding: 0 20px 20px 20px; /*3ème bordure*/
+  border: 5px solid #2d2e2e; /*coulleur 2*/
+}
+
+
+
+

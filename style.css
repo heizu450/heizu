@@ -1,0 +1,238 @@
+html {
+  font-size: 20px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
+  font-family: "DM Serif Text", serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #dedede;
+}
+h2 {
+  font-size: 40px;
+  text-align: left;
+  color: #dedede;
+}
+h3 {
+  font-size: 25px;
+  text-align: left;
+  color: #dedede;
+}
+p 
+{
+  font-size: 20px;
+  text-align: left;
+  color: #dedede;
+}
+li
+{
+ color: #dedede
+
+}
+
+
+img {
+  display: block;
+  padding: 0 auto;
+}
+
+.gauche {
+    float: left;
+    margin-right: auto;
+}
+.droit {
+    float: right;
+    margin-left: auto;
+}
+
+
+html {
+  front-size: 16px;
+}
+
+body {
+  margin: 0 auto ; /*1er bourdure*/
+  background-color: #111213;
+  padding: 0 20px 20px 20px; /*2ème bordure*/
+  border: 5px solid #353535; /*coulleur rebord*/
+}
+
+header {
+  position: absolute;
+  width: 96%;
+  height: 8vh;
+  top: 0;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 0 2rem;
+}
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.logo {
+  font-size: 2rem;
+  position: fixed;
+  display: flex;
+}
+
+.toggle {
+  display: none;
+  text-align: right; /* Aligne le texte et les éléments inline à droite */
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 750px;
+  position: fixed;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+.btn {
+  border: 0;
+  background: pink;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+.btn.btn-secondary {
+  background: transparent;
+  border: 2px solid pink;
+  color: #fff;
+}
+
+
+@media screen and (min-width: 1100px) and (max-width: 1950px) {
+  header {
+  background: transparent;
+  }
+  .toggle {
+   left: 1.5%;
+  }
+  .logo {
+   left: 6%;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+  header {
+  background: transparent;
+  }
+  .toggle {
+   left: 2%;
+  }
+  .logo {
+   left: 10%;
+  }
+  #notch, #jeb {
+   height: 350px;
+   width: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  header {
+  background: transparent;
+  }
+  .toggle {
+   left: 2.5%;
+  }
+  .logo {
+   left: 12%;
+  }
+  #notch, #jeb {
+    height: 50%;
+    width: 50%;
+  }
+}
+ 
+
+ .toggle {
+   display: block;
+   font-size: 2.5rem;
+   cursor: pointer;
+   z-index: 100; /* Assure que le logo reste au-dessus des autres éléments */
+   position: fixed; /* Fixe l'élément à l'écran */
+   right: 96.5%; /* Ajuste la distance par rapport au bord droit*/
+   top: 1%; /* Ajuste la distance par rapport au bord supérieur */
+}
+
+
+.logo {
+  display: block;
+  z-index: 100;
+  position: fixed;
+  top: 1%; /* Ajustez cette valeur selon l'emplacement souhaité */
+  width: 300px; /* Conservez cette valeur si c'est la taille désirée */
+  right: 81%; /* Ajuste la distance par rapport au bord droit*/
+}
+
+
+.ouvrir {
+  display: block;
+}
+.fermer {
+  display: none;
+}
+.open .ouvrir {
+  display: none;
+}
+.open .fermer {
+  display: block;
+}
+.menu {
+ position: absolute;
+ top: -20px;
+ left: 0; 
+ width: auto; 
+ height: 93vh; 
+ background: #000; 
+ flex-direction: column; 
+ padding: 2.5rem; 
+ justify-content: space-around; 
+ transform: translateX(-120%); 
+ transition: transform 0.7s;
+}
+
+.menu li a {
+  font-size: 1.5rem;
+}
+.btn {
+  font-size: 1.5rem;
+}
+
+.open .menu {
+  transform: translateX(0);
+  position: fixed;
+  
+}
+.bande-noire {
+  width: 100%; /* Occupe toute la largeur de l'écran */
+  height: auto; /* La hauteur s'adapte au contenu */
+  background-color: #000; /* Couleur de fond noire */
+  padding: 2rem; /* Espacement interne pour aérer le contenu */
+  text-align: center; /* Centrer le texte */
+  border-top: 5px solid #353535; /* Facultatif : une bordure supérieure */
+  border-bottom: 5px solid #353535; /* Facultatif : une bordure inférieure */
+  position: fixed;
+  right: 0px;
+}
+ 
+
+
+
+
+
+
+
+
+
